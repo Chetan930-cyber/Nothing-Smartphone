@@ -1,0 +1,916 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.head{
+    width: 100%;
+    height: 62px;
+    box-shadow: 3px grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.headi i{
+    font-size: 28px;
+}
+.head1img img{
+    width: 85%;
+}
+.head2anchor a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.upcomingphone{
+    width: 100%;
+    height: 650px;
+    margin-top: 15px;
+    
+    display: flex;
+}
+
+.upcomingpartleft{
+    width: 68%;
+    height: 650px;
+    
+    background-image: url(./homepage_desktop_1292x.jpg);
+}
+.upcomingpartright{
+    width: 32%;
+    height: 650px;
+    
+    background-color: #F3F5F8;
+    padding-top: 280px;
+    padding-left: 15px;
+}
+
+.upcomingpartright h1{
+font-size: 60px;
+}
+.upcomingpartright p{
+    font-size: 22px;
+    padding-top: 18px;
+}
+.upcomingpartright button{
+    background-color: #002F6C;
+    color: white;
+    width: 78%;
+    height: 55px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+
+}
+
+
+.multipledevices{
+    width: 100%;
+    height: 650px;
+    margin-top: 15px;
+    
+    display: flex;
+}
+
+.multipleleft{
+    width: 68%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    
+    background-image: url(./Homepage_-_Desktop_-_1560x2040_801a445f-c46b-472c-8c85-0f69c6401306_1292x.jpg);
+}
+.multipleright{
+    width: 32%;
+    height: 650px;
+    
+    background-color: #F3F5F8;
+    padding-top: 280px;
+    padding-left: 15px;
+}
+
+.multipleright h1{
+font-size: 60px;
+}
+.multipleright p{
+    font-size: 22px;
+    padding-top: 18px;
+}
+.multipleright button{
+    background-color: #002F6C;
+    color: white;
+    width: 78%;
+    height: 55px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+
+}
+
+
+
+.community{
+    width: 100%;
+    height: 650px;
+    margin-top: 15px;
+    
+    display: flex;
+}
+
+.communityleft{
+    width: 68%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    
+    background-image: url(./pi.jpg);
+}
+.communityright{
+    width: 32%;
+    height: 650px;
+    
+    background-color: #F3F5F8;
+    padding-top: 140px;
+    padding-left: 15px;
+}
+
+.communityright h1{
+font-size: 60px;
+}
+.communityright p{
+    font-size: 22px;
+    padding-top: 18px;
+}
+.communityright button{
+    background-color: #002F6C;
+    color: white;
+    width: 78%;
+    height: 55px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+
+}
+
+
+.specialedition{
+    width: 100%;
+    height: 650px;
+    margin-top: 15px;
+    
+    display: flex;
+}
+
+.specialeditionleft{
+    width: 68%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    
+    background-image: url(./upcoming.jpg);
+}
+.specialeditionright{
+    width: 32%;
+    height: 650px;
+    
+    background-color: #F3F5F8;
+    padding-top: 140px;
+    padding-left: 15px;
+}
+
+.specialeditionright h1{
+font-size: 60px;
+}
+.specialeditionright p{
+    font-size: 22px;
+    padding-top: 18px;
+}
+.specialeditionright button{
+    background-color: #002F6C;
+    color: white;
+    width: 78%;
+    height: 55px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+
+}
+
+
+.blue{
+    width: 100%;
+    height: 650px;
+    margin-top: 15px;
+    
+    display: flex;
+}
+
+.blueleft{
+    width: 68%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    
+    background-image: url(./phone-2a-blue-desktop_1292x.jpg);
+}
+.blueright{
+    width: 32%;
+    height: 650px;
+    
+    background-color: #F3F5F8;
+    padding-top: 250px;
+    padding-left: 15px;
+}
+
+.blueright h1{
+font-size: 60px;
+}
+.blueright p{
+    font-size: 22px;
+    padding-top: 18px;
+}
+.blueright button{
+    background-color: #002F6C;
+    color: white;
+    width: 78%;
+    height: 55px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+
+}
+
+
+.ear{
+    width: 100%;
+    height: 650px;
+    margin-top: 15px;
+    
+    display: flex;
+}
+
+.earleft{
+    width: 68%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    
+    background-image: url(./ear-desktop_1292x.jpg);
+}
+.earright{
+    width: 32%;
+    height: 650px;
+    
+    background-color: #F3F5F8;
+    padding-top: 250px;
+    padding-left: 15px;
+}
+
+.earright h1{
+font-size: 60px;
+}
+.earright p{
+    font-size: 22px;
+    padding-top: 18px;
+}
+.earright button{
+    background-color: #002F6C;
+    color: white;
+    width: 78%;
+    height: 55px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+
+}
+
+
+.eara{
+    width: 100%;
+    height: 650px;
+    margin-top: 15px;
+    
+    display: flex;
+}
+
+.earaleft{
+    width: 68%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    
+    background-image: url(./ear-a-desktop_1292x.jpg);
+}
+.eararight{
+    width: 32%;
+    height: 650px;
+    
+    background-color: #F3F5F8;
+    padding-top: 250px;
+    padding-left: 15px;
+}
+
+.eararight h1{
+font-size: 60px;
+}
+.eararight p{
+    font-size: 22px;
+    padding-top: 18px;
+}
+.eararight button{
+    background-color: #002F6C;
+    color: white;
+    width: 78%;
+    height: 55px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+
+}
+
+.kit{
+    width: 100%;
+    height: 650px;
+    margin-top: 15px;
+    
+    display: flex;
+}
+
+.kitleft{
+    width: 68%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    
+    background-image: url(./2560_x_2050_1292x.png);
+}
+.kitright{
+    width: 32%;
+    height: 650px;
+    
+    background-color: #F3F5F8;
+    padding-top: 250px;
+    padding-left: 15px;
+}
+
+.kitright h1{
+font-size: 60px;
+}
+.kitright p{
+    font-size: 22px;
+    padding-top: 18px;
+}
+.kitright button{
+    background-color: #002F6C;
+    color: white;
+    width: 78%;
+    height: 55px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+
+}
+
+
+.premium{
+    width: 100%;
+    height: 650px;
+    margin-top: 15px;
+    
+    display: flex;
+}
+
+.premiumleft{
+    width: 68%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    
+    background-image: url(./phone-2-launch_1292x.jpg);
+}
+.premiumright{
+    width: 32%;
+    height: 650px;
+    
+    background-color: #F3F5F8;
+    padding-top: 250px;
+    padding-left: 15px;
+}
+
+.premiumright h1{
+font-size: 60px;
+}
+.premiumright p{
+    font-size: 22px;
+    padding-top: 18px;
+}
+.premiumright button{
+    background-color: #002F6C;
+    color: white;
+    width: 78%;
+    height: 55px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+
+}
+
+.review{
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    background-color: #F3F5F8;
+}
+
+.review1{
+    width: 33%;
+    height: 300px;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    
+}
+.h1first{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.h1second{
+    font-weight: 700;
+    font-size: 30px;
+    color: #373737;
+}
+
+.review2{
+    width: 33%;
+    height: 300px;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    
+}
+.h1first{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.h1second{
+    font-weight: 700;
+    font-size: 30px;
+    color: #373737;
+}
+
+.review3{
+    width: 33%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    
+}
+.h1first{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.h1second{
+    font-weight: 700;
+    font-size: 30px;
+    color: #373737;
+}
+
+.footer1{
+    width: 100%;
+    height: 300px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-inline: 40px;
+}
+.footbox1{
+    display: flex;
+    flex-direction: column;
+}
+.footbox1 a{
+    text-decoration: none;
+}
+.footbox1 p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.footbox1 a{
+    font-size: 20px;
+    color: rgb(124, 118, 118);
+    font-weight: 600;
+}
+.footbox2{
+    display: flex;
+    flex-direction: column;
+}
+.footbox2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(124, 118, 118);
+    font-weight: 600;
+}
+.footbox2 p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.footbox3{
+    display: flex;
+    flex-direction: column;
+}
+.footbox3 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(124, 118, 118);
+    font-weight: 600;
+}
+.footbox3 p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.footbox4{
+    display: flex;
+    flex-direction: column;
+}
+.footbox4 h1{
+color: white;
+}
+.footbox4 .input{
+    width: 100%;
+    height: 55px;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.input  {
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+
+@media(max-width:768px){
+.upcomingphone{
+width: 100%;
+}
+.upcomingpartright{
+padding-top: 105px;
+
+}
+.communityright h1{
+font-size: 56px;
+}
+
+
+
+}
+
+
+@media(max-width:480px){
+.container{
+    width: 100%;
+}
+.head{
+    width: 100%;
+}
+.head2anchor a{
+    font-size: 12px;
+    text-align: center;
+}
+.headi i{
+font-size: 20px;
+padding-right: 20px;
+}
+.upcomingphone{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.upcomingpartleft{
+width: 100%;
+
+background-position: center;
+background-size: cover;
+}
+.upcomingpartleft img {
+
+    width: 0px;
+  
+  }
+.upcomingpartright{
+    width: 100%;
+    height: auto;
+    
+}
+.upcomingpartright button{
+    margin-left: 28px;
+}
+
+.multipledevices{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.multipleleft{
+width: 100%;
+
+background-position: center;
+background-size: cover;
+
+}
+
+ .multipleleft img {
+
+    width: 0px;
+  
+  }
+.multipleright{
+    width: 100%;
+    height: auto;
+    
+    padding-top: 85px;
+    
+}
+.multipleright button{
+    margin-left: 28px;
+}
+
+.community{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.communityleft{
+width: 100%;
+
+background-position: center;
+background-size: cover;
+
+}
+
+ .communityleft img {
+
+    width: 0px;
+  
+  }
+.communityright{
+    width: 100%;
+    height: auto;
+    
+    padding-top: 80px;
+    
+}
+.communityright button{
+    margin-left: 28px;
+}
+.specialedition{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.specialeditionleft{
+width: 100%;
+
+background-position: center;
+background-size: cover;
+
+}
+
+ .specialeditionleft img {
+
+    width: 0px;
+  
+  }
+.specialeditionright{
+    width: 100%;
+    height: auto;
+    
+    padding-top: 80px;
+    
+}
+.specialeditionright button{
+    margin-left: 28px;
+}
+
+.blue{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.blueleft{
+width: 100%;
+
+background-position: center;
+background-size: cover;
+
+}
+
+ .blueleft img {
+
+    width: 0px;
+  
+  }
+.blueright{
+    width: 100%;
+    height: auto;
+    
+    padding-top: 80px;
+    
+}
+.blueright button{
+    margin-left: 28px;
+}
+
+.ear{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.earleft{
+width: 100%;
+
+background-position: center;
+background-size: cover;
+
+}
+
+ .earleft img {
+
+    width: 0px;
+  
+  }
+.earright{
+    width: 100%;
+    height: auto;
+    
+    padding-top: 80px;
+    
+}
+.earright button{
+    margin-left: 28px;
+}
+
+.eara{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.earaleft{
+width: 100%;
+
+background-position: center;
+background-size: cover;
+
+}
+
+ .earaleft img {
+
+    width: 0px;
+  
+  }
+.eararight{
+    width: 100%;
+    height: auto;
+    
+    padding-top: 80px;
+    
+}
+.eararight button{
+    margin-left: 28px;
+}
+
+.kit{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.kitleft{
+width: 100%;
+
+background-position: center;
+background-size: cover;
+
+}
+
+ .kitleft img {
+
+    width: 0px;
+  
+  }
+.kitright{
+    width: 100%;
+    height: auto;
+    
+    padding-top: 80px;
+    
+}
+.kitright button{
+    margin-left: 28px;
+}
+
+.premium{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.premiumleft{
+width: 100%;
+
+background-position: center;
+background-size: cover;
+
+}
+
+ .premiumleft img {
+
+    width: 0px;
+  
+  }
+.premiumright{
+    width: 100%;
+    height: auto;
+    
+    padding-top: 80px;
+    
+}
+.premiumright button{
+    margin-left: 28px;
+}
+.review{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    
+}
+.review1 h1{
+    font-size: 25px;
+}
+.review2 h1{
+    font-size: 25px;
+}
+.review3 h1{
+    font-size: 25px;
+}
+.footer1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footbox4 h1{
+    font-size: 25px;
+}
+.footbox1{
+    padding-left: 0px;
+}
+.footbox4 input{
+    width: 50%;
+    padding: 9px;
+}
+}
